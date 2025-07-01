@@ -1,0 +1,19 @@
+{
+  "name": "item_images",
+  "version": "1.0.0",
+  "description": "Convert .dds files inside Items folder to doubled resolution JPGs",
+  "main": "convert.js",
+  "type": "module",
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.821.0",
+    "dotenv": "^16.5.0",
+    "execa": "^7.1.1",
+    "globby": "^13.1.2",
+    "sharp": "^0.32.1"
+  }
+}
